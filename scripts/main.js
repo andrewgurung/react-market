@@ -7,8 +7,14 @@ var ReactDOM = require('react-dom');
 
 var StorePicker = React.createClass({
   render: function() {
+    // Normal Comment
     return (
-      <p>Market Place First Component</p>
+      <form className="store-selector">
+        {/* JSX Comment */}
+        <h2>Please Enter a Store</h2>
+        <input type="text" ref="storeID" required/>
+        <input type="Submit" />
+      </form>
     )
   }
 });
